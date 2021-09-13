@@ -1,2 +1,2 @@
 # ARPGGuides
-Website that will eventually become a full stack website dedicated to ARPGS
+Website that will eventually become a full stack project dedicated to ARPGS
