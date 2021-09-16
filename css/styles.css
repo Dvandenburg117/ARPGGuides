@@ -1,28 +1,66 @@
+body{
+    background-image: linear-gradient(black,grey);
+    font-family:'Lato', sans-serif;
+}
+
 .titlesection{
-    background-color: teal;
+    background-image: linear-gradient(#008080,#12c2c2);
     font-family: 'Merriweather', serif;
     line-height: 1.5;
 }
 
 .lastepoch{
-    max-width: 900px;
-    max-height: 900px;
+    padding-top:.25rem;
+    padding-right:.25rem;
+    max-width: 100%;
+    max-height: 100%;
     width:auto;
     height: auto;
-    
-    display: block;
+    display: inline;
+}
+
+.navbar{
+    padding-bottom: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .navbar-brand{
+    margin-left: 1rem;
+    color: grey;
     font-family:'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+
+.navbar-dark .navbar-brand{
+    color: grey;
 }
 
 #brandtitle{
     font-family: 'Lato', sans-serif;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
 }
 
 h2{
-    font-size: 1.9rem;
+    font-size: 3rem;
+    line-height: 1.5;
 }
+
+h3{
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 2% 1%;
+}
+
+.fas{
+    color: rgb(173, 41, 63);
+    padding-bottom: 3%;
+}
+
+.fas:hover{
+    color:rgb(218, 218, 15);
+}
+
