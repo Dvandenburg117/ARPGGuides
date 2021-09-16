@@ -27,7 +27,7 @@
   <title>ARPG Guides!</title>
   </head>
   <body>   
-  <div class="container-fluid">
+  <div class="rpgnav container-fluid">
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
       <a class="navbar-brand" href="">ARPGuides</a>
 
@@ -63,7 +63,7 @@
             ARPGuides
           </h1>
           <hr>
-          <h2>Home to all the knowledge you'll need to loot fast and eat ass!</h2>
+          <h2 class="titletext">Home to all the knowledge you'll need to loot fast and eat ass!</h2>
           <div class="text-center">
             <button type="button" class="btn btn-dark btn-lg"><i class="fas fa-gamepad" style="color: rgb(173, 41, 63)"></i> Sign Up</button>
             <button type="button" class="btn btn-dark btn-lg"><i class="fas fa-gamepad" style="color: rgb(173, 41, 63)"></i> Log In</button>
@@ -78,13 +78,13 @@
     </div>
   </div>
 
-  <div class="container-fluid" style="background-image: linear-gradient(#008080,#12c2c2); padding: 4rem 1rem 4rem 1rem; margin-right: 2rem">
+  <div class="sellingpoint">
     <div class="row">
       <div class="col-lg-4">
         <div class="text-center">
           <i class="fas fa-dice-d6 fa-5x"></i>
           <h3>Lots of Variety</h3>
-          <h4>Find Helpful information for all of the heavy-hitting ARPGS, including Diablo3, Path of Exile,
+          <h4 class="sellingtext">Find Helpful information for all of the heavy-hitting ARPGS, including Diablo3, Path of Exile,
               Grim Dawn, and Last Epoch!
           </h4>
         </div>
@@ -94,7 +94,7 @@
         <div class="text-center">
           <i class="fas fa-clipboard-check fa-5x"></i>
           <h3>ARPG Lover's Paradise</h3>
-          <h4>Looking for build guides, patch notes, character planners, or even just news updates on your
+          <h4 class="sellingtext">Looking for build guides, patch notes, character planners, or even just news updates on your
               favorite ARPG? This is the place for you!
           </h4>
         </div>
@@ -104,7 +104,7 @@
         <div class="text-center">
           <i class="fas fa-route fa-5x"></i>
           <h3>Easy to Navigate</h3>
-          <h4>If this website has information you need, my navigation bar will point you in the right 
+          <h4 class="sellingtext">If this website has information you need, my navigation bar will point you in the right 
               direction!
           </h4>
         </div>
@@ -113,6 +113,52 @@
     </div>
   </div>
     
+  <div class="game-selection">
+    <h4>See what my website has to offer for your APRG of choice!</h4>
+    <div id="ARPGcarousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <h3>Last Epoch</h3>
+          <a href="https://lastepoch.com/">
+            <img class="ARPG-pic" src="images/lastepoch.jpg" alt="last-epoch-slide">
+          </a>         
+        </div>
+
+        <div class="carousel-item">
+          <h3>Diablo 3</h3>
+          <a href="https://us.diablo3.com/en-us/">
+            <img class="ARPG-pic" src="images/diablo3.jpeg" alt="diablo3-slide">
+          </a> 
+        </div>
+
+        <div class="carousel-item">
+          <h3>Grim Dawn</h3>
+          <a href="https://www.grimdawn.com/">
+            <img class="ARPG-pic" src="images/grimdawn.jpg" alt="grim-dawn-slide">
+          </a>
+        </div>
+
+        <div class="carousel-item">
+          <h3>Path of Exile</h3>
+          <a href="https://www.pathofexile.com/">
+            <img class="ARPG-pic" src="images/pathofexile.jpg" alt="path-of-exile-slide">
+          </a>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#ARPGcarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#ARPGcarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
 
     
 
