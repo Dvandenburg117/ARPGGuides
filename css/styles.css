@@ -96,10 +96,13 @@ h3{
     border-radius: 100%;
 }
 
+.dang{
+    margin: 2% .3%;
+}
+
 .cardprecursortext{
     text-align: center;
     color: #12c2c2;
-    margin-bottom: 30px;
 }
 
 .cardheadertext{
