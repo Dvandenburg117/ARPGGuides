@@ -90,3 +90,39 @@ h3{
     border-radius: 100%;
 }
 
+.grim{
+    width: 30%;
+    height: 15%;
+    border-radius: 100%;
+}
+
+.cardprecursortext{
+    text-align: center;
+    color: #12c2c2;
+    margin-bottom: 30px;
+}
+
+.cardheadertext{
+    text-align: center;
+    color:black;
+}
+
+.proconlist{
+    text-align: center;
+}
+
+.proconepoch{
+    background-image: linear-gradient(to right,#4c0388,#8d05fd);
+}
+
+.procondiablo{
+    background-image: linear-gradient(to right, #111111,#878788);
+}
+
+.procondawn{
+    background-image: linear-gradient(to right, #860808,#f80303);
+}
+
+.proconpath{
+    background-image: linear-gradient(to right, #7e3104,#fd6106);
+}
